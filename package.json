@@ -1,0 +1,19 @@
+{
+  "name": "webpack-course",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Brian Ambielli",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.5.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "scripts": {
+    "webpack": "webpack"
+  }
+}
