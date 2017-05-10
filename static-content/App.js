@@ -27,7 +27,6 @@ class App extends Component {
   }
 
   handleDateChange (_, date) {
-    console.log(date);
     this.setState({date});
   }
 
@@ -39,9 +38,9 @@ class App extends Component {
       <MuiThemeProvider>
         <div>
           <div style={styles.container}>
-            <h1>Example Project</h1>
-            <DatePicker 
-              hintText="Choose a Date" 
+            <h1>Pick a Date</h1>
+            <DatePicker
+              hintText="Choose a Date"
               onChange={this.handleDateChange} />
           </div>
           {this.state.date ? <YouDidIt /> : null}

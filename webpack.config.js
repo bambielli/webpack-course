@@ -15,7 +15,7 @@ module.exports = {
         filename: '[name].[chunkhash:5].bundle.js',
         publicPath: '/'
     },
-    // module defines loaders (rules) for transpiling and transforming files
+    // module defines rules (loaders) for transpiling and transforming files
     module: {
         rules: [
             {
@@ -33,7 +33,7 @@ module.exports = {
             }
         ]
     },
-    // plugines define the plugins required for additional processing of bundles and chunks
+    // plugins defines an array of plugins used for additional processing of bundles and chunks
     plugins: [
         new webpack.optimize.CommonsChunkPlugin({
             names: ['vendor', 'manifest'],
