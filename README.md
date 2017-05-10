@@ -1,4 +1,4 @@
-# webpack-example
+# [webpack-example](Webpack_TNG.pdf)
 
 Example repository to show off some webpack features in a small project.
 
